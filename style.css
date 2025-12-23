@@ -97,4 +97,13 @@ body{
     text shadow: 0 0 10px gold;
     animation: twinkle 1.5 infinite alternate;
 }
-    
+    @kayframes twinkle {
+        from{
+        transform: translateX(-50%) scale(1);
+        opacity: 0.8;
+    }
+to {
+transform: translateX(-50%) scale(1.2)
+opacity: 1;
+}
+}
