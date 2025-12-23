@@ -37,24 +37,25 @@ body{
 .star {
     position: absolute;
     top: -70px;
-    left: 50%
-    transform: translateX(-50%)
-    font size: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
     color: gold;
-    text shadow: 
-        0 0 10px gold;
-        0 0 20px gold;
+    text-shadow:
+        0 0 10px gold,
+        0 0 20px gold,
         0 0 40px gold;
-    animation: twinkle 1.5 infinite alternate;
+    animation: twinkle 1.5s infinite alternate;
     z-index: 10;
 }
-    @kayframes twinkle {
-        from{
+
+@keyframes twinkle {
+    from {
         transform: translateX(-50%) scale(1) rotate(-5deg);
         opacity: 0.8;
     }
-        to{
-        transform: translateX(-50%) scale(1.2) rotate(-5deg);
+    to {
+        transform: translateX(-50%) scale(1.2) rotate(5deg);
         opacity: 1;
     }
 }
@@ -107,6 +108,7 @@ body{
     transform: scale(1);
     opacity: 1;
 }
+
 
 
 
