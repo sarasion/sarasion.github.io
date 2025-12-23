@@ -36,12 +36,15 @@ body{
 
 .star {
     position: absolute;
-    top: -35px;
+    top: -70px;
     left: 50%
     transform: translateX(-50%)
-    font size: 40px;
+    font size: 80px;
     color: gold;
-    text shadow: 0 0 10px gold;
+    text shadow: 
+        0 0 10px gold;
+        0 0 20px gold;
+        0 0 40px gold;
     animation: twinkle 1.5 infinite alternate;
     z-index: 10;
 }
@@ -104,6 +107,7 @@ body{
     transform: scale(1);
     opacity: 1;
 }
+
 
 
 
