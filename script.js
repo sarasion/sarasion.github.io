@@ -61,8 +61,10 @@ function placeLights() {
         lightDiv.style.top = `${y}%`;
         lightDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
         lightDiv.style.animationDelay = `${Math.random() * 2}s`;
+        lightDiv.style.zIndex = "99";
         treeContainer.appendChild(lightDiv);
     }
 }
 
 document.addEventListener("DOMContentLoaded", placeLights);
+
