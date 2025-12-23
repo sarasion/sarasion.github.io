@@ -85,5 +85,16 @@ body{
     color: black;
     transform: scale(1);
     opacity: 1;
-
 }
+
+.star {
+    position: absolute;
+    top: -35px;
+    left: 50%
+    transform: translateX(-50%)
+    font size: 40px;
+    color: gold;
+    text shadow: 0 0 10px gold;
+    animation: twinkle 1.5 infinite alternate;
+}
+    
