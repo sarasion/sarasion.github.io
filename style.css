@@ -109,6 +109,15 @@ body{
     opacity: 1;
 }
 
+.tree-img {
+    position: relative;
+    z-index: 1;
+}
+
+.star {
+    z-index: 5;
+}
+
 
 
 
