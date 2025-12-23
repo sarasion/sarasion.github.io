@@ -29,9 +29,6 @@ body{
 }
 
 .tree-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
     position: relative;
     width: 400px;
     margin: 40px auto 0 auto;
@@ -108,4 +105,5 @@ transform: translateX(-50%) scale(1.2)
 opacity: 1;
 }
 }
+
 
