@@ -50,11 +50,11 @@ body{
 }
     @kayframes twinkle {
         from{
-        transform: translateX(-50%) scale(1);
+        transform: translateX(-50%) scale(1) rotate(-5deg);
         opacity: 0.8;
     }
         to{
-        transform: translateX(-50%) scale(1.2)
+        transform: translateX(-50%) scale(1.2) rotate(-5deg);
         opacity: 1;
     }
 }
@@ -107,6 +107,7 @@ body{
     transform: scale(1);
     opacity: 1;
 }
+
 
 
 
